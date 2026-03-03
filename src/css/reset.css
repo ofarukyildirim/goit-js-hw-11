@@ -32,3 +32,96 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+input,
+button {
+  font: inherit;
+  border: 1px solid #808080;
+  outline: none;
+}
+
+
+/* 1. Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Margin reset */
+* {
+  margin: 0;
+}
+
+/* 3. Body defaults */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 4. Media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Form elements normalize */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* 6. Button reset */
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* 7. Remove list styles */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* 8. Anchor reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 9. Table reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 10. Prevent textarea resize overflow */
+textarea {
+  resize: vertical;
+}
+
+/* 11. Remove default input appearance (cross-browser) */
+input,
+textarea,
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
